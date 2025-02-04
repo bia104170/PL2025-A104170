@@ -1,6 +1,6 @@
 # Repositório da UC Processamento de Linguagens (PL2025-A104170)
 
-**Curso:** Licenciatura em Engenharia Informática
+**Curso:** Licenciatura em Engenharia Informática  
 **Unidade Curricular:** Processamento de Linguagens
 
 ## Autor
