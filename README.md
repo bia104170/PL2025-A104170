@@ -9,7 +9,7 @@
 **Número:** A104170  
 **Email:** a104170@alunos.uminho.pt
 
-![Fotografia de identificação](images/foto_identificacao.png)
+![Fotografia de identificação](images/sem_titulo.png)
 
 ## Sobre o repositório
 
