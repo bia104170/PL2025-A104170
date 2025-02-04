@@ -1,13 +1,13 @@
-# Repositório de Processamento de Linguagens (PL2025-A104170)
+# Repositório da UC Processamento de Linguagens (PL2025-A104170)
 
-**Curso:** Licenciatura em Engenharia Informática  
+**Curso:** Licenciatura em Engenharia Informática
 **Unidade Curricular:** Processamento de Linguagens
 
 ## Autor
 
-- **Nome:** Beatriz Carvalho Peixoto
-- **Número:** A104170
-- **Email:** a104170@alunos.uminho.pt
+**Nome:** Beatriz Carvalho Peixoto  
+**Número:** A104170  
+**Email:** a104170@alunos.uminho.pt
 
 ![Fotografia de identificação](images/foto_identificacao.png)
 
