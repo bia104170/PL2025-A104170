@@ -2,7 +2,8 @@
 
 **Data:** 2025-02-11
 
-**Autor:**
+## Autor
+
 - **Nome:** Beatriz Carvalho Peixoto  
 - **Número:** A104170  
 
