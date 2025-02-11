@@ -4,8 +4,8 @@
 
 ## Autor
 
-- **Nome:** Beatriz Carvalho Peixoto  
-- **Número:** A104170  
+**Nome:** Beatriz Carvalho Peixoto  
+**Número:** A104170  
 
 ![Fotografia de identificação](../foto_identificacao.png)
 
