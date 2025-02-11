@@ -1,6 +1,7 @@
 # Relatório Trabalho de Casa 1
 
-**Data:** 2025-02-11  
+**Data:** 2025-02-11
+
 **Autor:**
 - **Nome:** Beatriz Carvalho Peixoto  
 - **Número:** A104170  
