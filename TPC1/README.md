@@ -5,7 +5,7 @@
 - **Nome:** Beatriz Carvalho Peixoto  
 - **Número:** A104170  
 
-![Fotografia de identificação](foto_identificacao.png)
+![Fotografia de identificação](../foto_identificacao.png)
 
 ## Resumo
 1. Este trabalho de casa consistiu em fazer um contador On/Off, que some todas as sequências de dígitos encontradas num texto.
