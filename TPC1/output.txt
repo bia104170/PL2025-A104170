@@ -6,3 +6,6 @@ Resultado da soma: 169
 Resultado da soma: 193
 Resultado da soma: 222
 Resultado da soma: 229
+Resultado da soma: 2032
+Resultado da soma: 2032
+Resultado da soma: 2057
