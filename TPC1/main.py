@@ -38,7 +38,10 @@ def main():
         try:
             #Obtem string do input
             string = input()
-    
+
+            if string.lower() == "exit": # para terminar o programa
+                break
+
             processaTexto(string)
             
         except EOFError:
