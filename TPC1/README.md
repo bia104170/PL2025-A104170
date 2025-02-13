@@ -14,6 +14,8 @@
 2. Sempre que seja encontrada a string "On" o contador é ativado.
 3. Sempre que seja encontrada a string "Off" esse contador é desativado.
 4. Sempre que for encontrado o carácter "=", o resultado da soma até àquele ponto é imprimido.
+5. O comando para executar o programa é python3 main.py < input.txt > output.txt.
+6. O input.txt é o ficheiro de onde é lido o input e o ficheiro output.txt é o ficheiro onde são escritos os resultados do programa.
 
 
 ## Lista de Resultados

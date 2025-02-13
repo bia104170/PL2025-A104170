@@ -1,7 +1,7 @@
 def processaTexto(string):
     soma = 0
     ativo = True
-    i = 0 # para percorrer a lista
+    i = 0
 
     while i < len(string):
         if (string[i:i+3].lower() == 'off'): # passa para minuscula para verificar
@@ -13,7 +13,7 @@ def processaTexto(string):
         
         elif(string[i] >= '0' and string[i] <= '9'):
             if ativo:
-                numero = "" # criar uma string que me vai guardar os chars
+                numero = ""
                 while i < len(string) and string[i] >= '0' and string[i] <= '9':
                     numero = numero + string[i]
                     i += 1
