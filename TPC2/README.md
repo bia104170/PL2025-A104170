@@ -27,4 +27,4 @@
 
 ## Lista de Resultados 
 O ficheiro output.txt contém os resultados pedidos.
-- ![Ficheiro de output](TPC2/output.txt)
+- ![Ficheiro de output](output.txt)
