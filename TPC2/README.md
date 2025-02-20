@@ -16,7 +16,7 @@
        desse período;
 3. Inicialmente, a ideia para analisar e processar o dataset (obras.csv) era ler cada linha do ficheiro.
 4. Contudo, ao analisar o dataset fornecido (obras.csv) para o processar de seguida, verificou-se que na coluna desc do dataset existiam caracteres como o \n que não permitiam a leitura correta de cada linha do dataset. 
-5. Assim, foi necessário fazer uma análise mais detalhada, que consistiu em analisar o dataset char a char, garantindo que os \n fossem identificados e tratados de forma correta. Assim:
+5. Assim, foi necessário fazer uma análise mais detalhada, que consistiu em analisar o dataset char a char, garantindo que os caracteres que estavam a dificultar a análise do dataset fossem identificados e tratados de forma correta. Assim:
     - Sempre que era encontrada uma ", verifica-se se essa aspa se encontra dentro de aspas, de modo a ser possível processar corretamente o dataset.
     - Sempre que era encontrado um \n dentro de um campo com aspas, dentro de aspas, este \n era tratado como parte do conteúdo e não como uma quebra de linha.
     - Se for encontrado o separador ; então significa que se analisou o campo todo e pode-se, finalmente, armazená-lo numa estrutura. Essa estrutura é um dicionário que contém todos os campos de uma linha completa do dataset fornecido.
