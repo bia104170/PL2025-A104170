@@ -30,10 +30,10 @@ with open("obras.csv", "r", encoding="utf-8") as f:
                 
                     if aspas and i + 1 < len(linha) and linha[i+1] == '"':
                         linha_buffer += '"'
-                        i += 1 #avança para depois da segunda "
+                        i += 1
 
                     else:
-                        aspas = not aspas # se estiver dentro de aspas mas o proximo char não for "
+                        aspas = not aspas
 
                 elif char == separador and aspas == False: #separador encontrado e fora de aspas
                     estrutura[campos_header[n]] = linha_buffer
@@ -63,7 +63,7 @@ for obra in dataset:
     if(compositor not in compositores):
         compositores.append(compositor)
 
-compositores_ordenado = sorted(compositores)
+compositores_ordenado = sorted(compositores) # lista ordenada
 
 print("--------1--------\n")
 
