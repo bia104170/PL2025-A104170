@@ -22,7 +22,7 @@ Os coelhos precisam de uma dieta equilibrada:
 - **80%** de *feno*
 - **10%** de *vegetais frescos* 
 - **5%** de *ração específica para coelhos*  
-- **5%** de *frutas como maçã e banana* em [Artigo sobre Coelhos na Wikipédia](https://pt.wikipedia.org/wiki/Coelho)
+- **5%** de *frutas como maçã e banana*
 
 ## Fotografia de um Coelho
 
