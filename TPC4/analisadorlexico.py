@@ -7,6 +7,7 @@ tokens = (
     'SELECT', 
     'WHERE', 
     'LIMIT', 
+    'TYPE',
     'VAR', 
     'CLASSE', 
     'NUMBER', 
@@ -14,27 +15,31 @@ tokens = (
     'POINT', 
     'LBRACE', 
     'RBRACE',
-    'TYPE'
+    'ID'
     )
 
-t_SELECT = r'(?i)select'
-t_WHERE = r'(?i)where'
-t_LIMIT = r'(?i)limit'
 t_POINT = r'\.'
 t_LBRACE = r'\{'
 t_RBRACE = r'\}'
-t_TYPE = r'\ba\b'
 
-def t_VAR(t):
-    r'\?[a-zA-Z_]\w*'
+def t_SELECT(t):
+    r'(?i)select'
+    return t
+
+def t_WHERE(t):
+    r'(?i)where'
+    return t
+
+def t_LIMIT(t):
+    r'(?i)limit'
+    return t
+
+def t_TYPE(t):
+    r'\ba\b'
     return t
 
 def t_CLASSE(t):
     r'[a-zA-Z_][a-zA-Z_0-9]*:[a-zA-Z_][a-zA-Z_0-9]*'
-    return t
-
-def t_STRING(t):
-    r'\".*?\"(@[a-zA-Z]+)?'
     return t
 
 def t_NUMBER(t):
@@ -42,9 +47,21 @@ def t_NUMBER(t):
     t.value = int(t.value)
     return t
 
+def t_STRING(t):
+    r'\".*?\"(@[a-zA-Z]+)?'
+    return t
+
 def t_COMMENT(t):
     r'\#.*'
     pass # descartar os comentários
+
+def t_VAR(t):
+    r'\?[a-zA-Z_]\w*'
+    return t
+
+def t_ID(t):
+    r'[a-zA-Z_]\w*'
+    return t
 
 def t_newline(t):
     r'\n+'
