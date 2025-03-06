@@ -2,23 +2,28 @@ import sys
 import re 
 import ply.lex as lex
 
-reserved = {
-    'select' : 'SELECT',
-    'where' : 'WHERE',
-    'limit' : 'LIMIT'
-}
 
-reserved_sensitive = {
-    'a' : 'TYPE'
-}
+tokens = (
+    'SELECT', 
+    'WHERE', 
+    'LIMIT', 
+    'VAR', 
+    'CLASSE', 
+    'NUMBER', 
+    'STRING', 
+    'POINT', 
+    'LBRACE', 
+    'RBRACE',
+    'TYPE'
+    )
 
-tokens = ['VAR', 'CLASSE', 'NUMBER', 'STRING', 'POINT', 'LBRACE', 'RBRACE', 'ID'] + list(reserved.values()) + list(reserved_sensitive.values())
-
-#expressões regulares para tokens simples e fixos
-
+t_SELECT = r'(?i)select'
+t_WHERE = r'(?i)where'
+t_LIMIT = r'(?i)limit'
 t_POINT = r'\.'
 t_LBRACE = r'\{'
 t_RBRACE = r'\}'
+t_TYPE = r'\ba\b'
 
 def t_VAR(t):
     r'\?[a-zA-Z_]\w*'
@@ -35,16 +40,6 @@ def t_STRING(t):
 def t_NUMBER(t):
     r'\d+'
     t.value = int(t.value)
-    return t
-
-def t_ID(t):
-    r'[a-zA-Z_][a-zA-Z_0-9]*'
-    if t.value.lower() in reserved: 
-        t.type = reserved[t.value.lower()]
-    elif t.value in reserved_sensitive:
-        t.type = reserved_sensitive[t.value]
-    else:
-        t.type = 'ID'
     return t
 
 def t_COMMENT(t):
