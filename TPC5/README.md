@@ -31,4 +31,4 @@ Alguns comandos para testar a máquina de vending:
 
 ## Lista de Resultados 
 Ficheiro onde se encontra o programa em python:
-    - ![maquinaVending.py](maquinaVending.py)
+- ![maquinaVending.py](maquinaVending.py)
