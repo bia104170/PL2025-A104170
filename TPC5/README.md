@@ -21,7 +21,7 @@
     - SAIR que termina a atividade da máquina e salva as suas alterações
 
 ## Utilização
-Para executar este programa utiliza-se o comando: python3 maquinaVending.py
+Para executar este programa utiliza-se o comando: python3 maquinaVending.py  
 Alguns comandos para testar a máquina de vending:
     - LISTAR
     - MOEDA 1e, 50c .
