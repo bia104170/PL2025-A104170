@@ -23,11 +23,11 @@
 ## Utilização
 Para executar este programa utiliza-se o comando: python3 maquinaVending.py  
 Alguns comandos para testar a máquina de vending:
-    - LISTAR
-    - MOEDA 1e, 50c .
-    - SELECIONAR B12
-    - ADICIONAR A23 2
-    - SAIR
+1. LISTAR
+2. MOEDA 1e, 50c .
+3. SELECIONAR B12
+4. ADICIONAR A23 2
+5. SAIR
 
 ## Lista de Resultados 
 Ficheiro onde se encontra o programa em python:
