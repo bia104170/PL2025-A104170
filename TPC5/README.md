@@ -1,6 +1,6 @@
 # Relatório Trabalho de Casa 5
 
-**Data:** 2025-03-11
+**Data:** 2025-03-12
 
 ## Autor
 
@@ -11,7 +11,7 @@
 
 ## Resumo
 1. Este trabalho de casa consistiu em construir um programa que simula uma máquina de vending.
-2. Para a resolução deste trabalho de casa utilizei a biblioteca ply, mais especificamente o ply.lex.
+2. Esta máquina contém um stock de produtos que se encontra no ficheiro json: ![stock.json](stock.json)
 3. Os tokens e as expressões regulares definidas permitiram processar os comandos inseridos como, por exemplo, o "SELECIONAR A23" de modo a ser possível capturar os parâmetros necessários (como o código de um produto) e realizar a ação correspondente. 
 3. Esta máquina de vending suporta as seguintes operações:
     - LISTAR que apresenta o lista dos produtos existentes e as suas informações
@@ -22,6 +22,7 @@
 
 ## Utilização
 Para executar este programa utiliza-se o comando: python3 maquinaVending.py  
+Os resultados são impressos no terminal.
 Alguns comandos para testar a máquina de vending:
 1. LISTAR
 2. MOEDA 1e, 50c .
@@ -30,5 +31,5 @@ Alguns comandos para testar a máquina de vending:
 5. SAIR
 
 ## Lista de Resultados 
-Ficheiro onde se encontra o programa em python:
-- ![maquinaVending.py](maquinaVending.py)
+Na lista abaixo apresenta-se o ficheiro com o programa em python:
+- ![Ficheiro com o programa da máquina de vending](maquinaVending.py)
