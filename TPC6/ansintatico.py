@@ -52,7 +52,6 @@ def rec_EP(esq):
     elif prox_simb.type == 'OP1':
         print("A derivar por P5: EP -> OP1 NUMBER EP")
         op = rec_OP1()
-        #print("P5 apos obter op")
         numero = rec_NUM()
         res = rec_EP(Exp(op,esq,numero))
         print("Reconheci P5: EP -> OP1 NUMBER EP")
@@ -86,7 +85,6 @@ def rec_EN(esq):
         
         print("A derivar por P2: EN -> OP2 EPInicio EN")
         op = rec_OP2()
-        #print("P2 após obter op")
         numero = rec_EPI()
         res = rec_EN(Exp(op, esq,numero))
         print("Reconheci P2: EN -> OP2 EPInicio EN")

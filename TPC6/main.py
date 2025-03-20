@@ -2,7 +2,6 @@ from ansintatico import rec_Parser
 
 def main():
     while True:
-        #print("Introduza a sua expressão ou sair para terminar:")
         try:
             linha = input()
             print(f"Expressão: {linha}")
