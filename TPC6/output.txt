@@ -7,8 +7,6 @@ A derivar por P6: EP -->
 Reconheci P6: EP --> 
 Reconheci P4: EPInicio --> NUMBER EP
 A derivar por P2: EN -> OP2 EPInicio EN
-OP2
-OP2 obtido
 A derivar por P4: EPInicio -> NUMBER EP
 A derivar por P5: EP -> OP1 NUMBER EP
 A derivar por P6: EP --> 
@@ -16,8 +14,6 @@ Reconheci P6: EP -->
 Reconheci P5: EP -> OP1 NUMBER EP
 Reconheci P4: EPInicio --> NUMBER EP
 A derivar por P2: EN -> OP2 EPInicio EN
-OP2
-OP2 obtido
 A derivar por P4: EPInicio -> NUMBER EP
 A derivar por P6: EP --> 
 Reconheci P6: EP --> 
@@ -41,8 +37,6 @@ A derivar por P6: EP -->
 Reconheci P6: EP --> 
 Reconheci P4: EPInicio --> NUMBER EP
 A derivar por P2: EN -> OP2 EPInicio EN
-OP2
-OP2 obtido
 A derivar por P4: EPInicio -> NUMBER EP
 A derivar por P5: EP -> OP1 NUMBER EP
 A derivar por P6: EP --> 
@@ -67,15 +61,11 @@ A derivar por P6: EP -->
 Reconheci P6: EP --> 
 Reconheci P4: EPInicio --> NUMBER EP
 A derivar por P2: EN -> OP2 EPInicio EN
-OP2
-OP2 obtido
 A derivar por P4: EPInicio -> NUMBER EP
 A derivar por P6: EP --> 
 Reconheci P6: EP --> 
 Reconheci P4: EPInicio --> NUMBER EP
 A derivar por P2: EN -> OP2 EPInicio EN
-OP2
-OP2 obtido
 A derivar por P4: EPInicio -> NUMBER EP
 A derivar por P6: EP --> 
 Reconheci P6: EP --> 
@@ -101,8 +91,6 @@ Reconheci P6: EP -->
 Reconheci P5: EP -> OP1 NUMBER EP
 Reconheci P4: EPInicio --> NUMBER EP
 A derivar por P2: EN -> OP2 EPInicio EN
-OP2
-OP2 obtido
 A derivar por P4: EPInicio -> NUMBER EP
 A derivar por P6: EP --> 
 Reconheci P6: EP --> 
@@ -127,8 +115,6 @@ Reconheci P6: EP -->
 Reconheci P5: EP -> OP1 NUMBER EP
 Reconheci P4: EPInicio --> NUMBER EP
 A derivar por P2: EN -> OP2 EPInicio EN
-OP2
-OP2 obtido
 A derivar por P4: EPInicio -> NUMBER EP
 A derivar por P5: EP -> OP1 NUMBER EP
 A derivar por P6: EP --> 

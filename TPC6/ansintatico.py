@@ -29,10 +29,8 @@ def rec_OP1():
 def rec_OP2():
     global prox_simb
     if prox_simb.type == 'OP2':
-        print("OP2")
         op = prox_simb.value
         prox_simb = lexer.token()
-        print("OP2 obtido")
         return op
     else:
         parserError(prox_simb)
