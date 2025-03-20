@@ -1,0 +1,146 @@
+Expressão: 3+7*8-7
+
+
+A derivar por P1: Inicio -> EPInicio EN
+A derivar por P4: EPInicio -> NUMBER EP
+A derivar por P6: EP --> 
+Reconheci P6: EP --> 
+Reconheci P4: EPInicio --> NUMBER EP
+A derivar por P2: EN -> OP2 EPInicio EN
+OP2
+OP2 obtido
+A derivar por P4: EPInicio -> NUMBER EP
+A derivar por P5: EP -> OP1 NUMBER EP
+A derivar por P6: EP --> 
+Reconheci P6: EP --> 
+Reconheci P5: EP -> OP1 NUMBER EP
+Reconheci P4: EPInicio --> NUMBER EP
+A derivar por P2: EN -> OP2 EPInicio EN
+OP2
+OP2 obtido
+A derivar por P4: EPInicio -> NUMBER EP
+A derivar por P6: EP --> 
+Reconheci P6: EP --> 
+Reconheci P4: EPInicio --> NUMBER EP
+A derivar por P3: EN -> 
+Reconheci P3: EN -> 
+Reconheci P2: EN -> OP2 EPInicio EN
+Reconheci P2: EN -> OP2 EPInicio EN
+Reconheci P1: Inicio -> EPInicio EN
+
+
+O resultado da expressão 3+7*8-7 é 52
+----------------------------------------------------------
+
+Expressão: 1+8*2
+
+
+A derivar por P1: Inicio -> EPInicio EN
+A derivar por P4: EPInicio -> NUMBER EP
+A derivar por P6: EP --> 
+Reconheci P6: EP --> 
+Reconheci P4: EPInicio --> NUMBER EP
+A derivar por P2: EN -> OP2 EPInicio EN
+OP2
+OP2 obtido
+A derivar por P4: EPInicio -> NUMBER EP
+A derivar por P5: EP -> OP1 NUMBER EP
+A derivar por P6: EP --> 
+Reconheci P6: EP --> 
+Reconheci P5: EP -> OP1 NUMBER EP
+Reconheci P4: EPInicio --> NUMBER EP
+A derivar por P3: EN -> 
+Reconheci P3: EN -> 
+Reconheci P2: EN -> OP2 EPInicio EN
+Reconheci P1: Inicio -> EPInicio EN
+
+
+O resultado da expressão 1+8*2 é 17
+----------------------------------------------------------
+
+Expressão: 3+6+7
+
+
+A derivar por P1: Inicio -> EPInicio EN
+A derivar por P4: EPInicio -> NUMBER EP
+A derivar por P6: EP --> 
+Reconheci P6: EP --> 
+Reconheci P4: EPInicio --> NUMBER EP
+A derivar por P2: EN -> OP2 EPInicio EN
+OP2
+OP2 obtido
+A derivar por P4: EPInicio -> NUMBER EP
+A derivar por P6: EP --> 
+Reconheci P6: EP --> 
+Reconheci P4: EPInicio --> NUMBER EP
+A derivar por P2: EN -> OP2 EPInicio EN
+OP2
+OP2 obtido
+A derivar por P4: EPInicio -> NUMBER EP
+A derivar por P6: EP --> 
+Reconheci P6: EP --> 
+Reconheci P4: EPInicio --> NUMBER EP
+A derivar por P3: EN -> 
+Reconheci P3: EN -> 
+Reconheci P2: EN -> OP2 EPInicio EN
+Reconheci P2: EN -> OP2 EPInicio EN
+Reconheci P1: Inicio -> EPInicio EN
+
+
+O resultado da expressão 3+6+7 é 16
+----------------------------------------------------------
+
+Expressão: 8/2+1
+
+
+A derivar por P1: Inicio -> EPInicio EN
+A derivar por P4: EPInicio -> NUMBER EP
+A derivar por P5: EP -> OP1 NUMBER EP
+A derivar por P6: EP --> 
+Reconheci P6: EP --> 
+Reconheci P5: EP -> OP1 NUMBER EP
+Reconheci P4: EPInicio --> NUMBER EP
+A derivar por P2: EN -> OP2 EPInicio EN
+OP2
+OP2 obtido
+A derivar por P4: EPInicio -> NUMBER EP
+A derivar por P6: EP --> 
+Reconheci P6: EP --> 
+Reconheci P4: EPInicio --> NUMBER EP
+A derivar por P3: EN -> 
+Reconheci P3: EN -> 
+Reconheci P2: EN -> OP2 EPInicio EN
+Reconheci P1: Inicio -> EPInicio EN
+
+
+O resultado da expressão 8/2+1 é 5.0
+----------------------------------------------------------
+
+Expressão: 15/3 + 20/4
+
+
+A derivar por P1: Inicio -> EPInicio EN
+A derivar por P4: EPInicio -> NUMBER EP
+A derivar por P5: EP -> OP1 NUMBER EP
+A derivar por P6: EP --> 
+Reconheci P6: EP --> 
+Reconheci P5: EP -> OP1 NUMBER EP
+Reconheci P4: EPInicio --> NUMBER EP
+A derivar por P2: EN -> OP2 EPInicio EN
+OP2
+OP2 obtido
+A derivar por P4: EPInicio -> NUMBER EP
+A derivar por P5: EP -> OP1 NUMBER EP
+A derivar por P6: EP --> 
+Reconheci P6: EP --> 
+Reconheci P5: EP -> OP1 NUMBER EP
+Reconheci P4: EPInicio --> NUMBER EP
+A derivar por P3: EN -> 
+Reconheci P3: EN -> 
+Reconheci P2: EN -> OP2 EPInicio EN
+Reconheci P1: Inicio -> EPInicio EN
+
+
+O resultado da expressão 15/3 + 20/4 é 10.0
+----------------------------------------------------------
+
